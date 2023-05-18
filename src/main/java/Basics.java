@@ -100,7 +100,7 @@ public class Basics {
          * Current count: 0
          */
         for (int i = 10; i >= 0; i--) {
-            System.out.println("Current count" + i);
+            System.out.println("Current count " + i);
         }
 
     }
@@ -144,7 +144,7 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
 
-        String[] words = to_split.split("\s");
+        String[] words = to_split.split("\\s");
         for (String word : words) {
             ret.append(word.charAt(0));
         }
